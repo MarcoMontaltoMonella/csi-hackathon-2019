@@ -1,0 +1,1064 @@
+{
+   "measurements" : [
+      {
+         "experiment" : 20969912,
+         "transmittedAt" : "2019-03-29T07:02:04.066910Z",
+         "group" : 3,
+         "measuredAt" : "2019-03-29T07:02:04.068276Z",
+         "receivedAt" : "2019-03-29T07:02:04.069643Z",
+         "updatedAt" : "2019-03-29T07:06:32.752755Z",
+         "targetPass" : 477179003,
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "type" : "range_bias",
+               "source" : "leolabs",
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937
+            },
+            {
+               "value" : 7.40466523054558,
+               "source" : "iri16",
+               "type" : "ionospheric"
+            }
+         ],
+         "corrected" : {
+            "range" : 409582.624689566,
+            "doppler" : -63.9065022471644,
+            "rangeError" : 18.0375602437628,
+            "azimuth" : 41.887494292748,
+            "elevation" : 87.2337007585421,
+            "rcs" : 4815.22162130031,
+            "dopplerError" : 0.235419589111831
+         },
+         "values" : {
+            "azimuth" : 63.2710859520472,
+            "elevation" : 87.1327616027622,
+            "rcs" : 17.5496783369445,
+            "dopplerError" : 0.0125228673922809,
+            "range" : 409590.649874689,
+            "rangeError" : 0.238607709804346,
+            "doppler" : -64.1969313567541
+         },
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64808,
+         "noradCatalogNumber" : 25544,
+         "id" : 236251883,
+         "instrument" : "msr",
+         "snr" : 394650.329625745
+      },
+      {
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:04.116292Z",
+         "receivedAt" : "2019-03-29T07:02:04.119025Z",
+         "measuredAt" : "2019-03-29T07:02:04.117658Z",
+         "experiment" : 20969912,
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.751178Z",
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 43.6982252530426,
+            "elevation" : 87.2373344191806,
+            "rcs" : 717.186198042714,
+            "rangeError" : 18.0375602437628,
+            "doppler" : -57.6868556151599,
+            "range" : 409580.482768949
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "source" : "iri16",
+               "type" : "ionospheric",
+               "value" : 7.40943925948867
+            }
+         ],
+         "values" : {
+            "doppler" : -57.9772847247496,
+            "rangeError" : 1.47912064750934,
+            "range" : 409588.512728101,
+            "dopplerError" : 0.0776288064670356,
+            "rcs" : 0.456690357570871,
+            "elevation" : 86.3914590260621,
+            "azimuth" : 64.8868154578447
+         },
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64799,
+         "noradCatalogNumber" : 25544,
+         "id" : 236251868,
+         "instrument" : "msr",
+         "snr" : 10270.0891943752
+      },
+      {
+         "noradCatalogNumber" : 25544,
+         "id" : 236251885,
+         "instrument" : "msr",
+         "integrationTime" : 0.043304,
+         "beam" : 64808,
+         "catalogNumber" : "L72",
+         "snr" : 5405988.74690303,
+         "updatedAt" : "2019-03-29T07:06:32.752962Z",
+         "targetPass" : 477179003,
+         "experiment" : 20969912,
+         "group" : 3,
+         "transmittedAt" : "2019-03-29T07:02:04.466910Z",
+         "receivedAt" : "2019-03-29T07:02:04.469642Z",
+         "measuredAt" : "2019-03-29T07:02:04.468276Z",
+         "values" : {
+            "range" : 409566.880297841,
+            "rangeError" : 0.0644693272957652,
+            "doppler" : -15.0153364119479,
+            "azimuth" : 63.2710859520472,
+            "elevation" : 87.1327616027622,
+            "rcs" : 240.342742516984,
+            "dopplerError" : 0.00338354882688588
+         },
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 50.4274983780684,
+            "elevation" : 87.226624682562,
+            "rcs" : 15152.099525517,
+            "doppler" : -14.7249073023583,
+            "rangeError" : 18.0375602437628,
+            "range" : 409558.855112717
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "value" : 7.40466523054558,
+               "source" : "iri16",
+               "type" : "ionospheric"
+            }
+         ]
+      },
+      {
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.751385Z",
+         "transmittedAt" : "2019-03-29T07:02:04.516292Z",
+         "group" : 1,
+         "receivedAt" : "2019-03-29T07:02:04.519024Z",
+         "measuredAt" : "2019-03-29T07:02:04.517658Z",
+         "experiment" : 20969912,
+         "values" : {
+            "rangeError" : 1.06094816880499,
+            "doppler" : -8.81793011127726,
+            "range" : 409565.208612853,
+            "dopplerError" : 0.0556818270412239,
+            "rcs" : 0.887445852716115,
+            "elevation" : 86.3914590260621,
+            "azimuth" : 64.8868154578447
+         },
+         "corrections" : [
+            {
+               "type" : "doppler_bias",
+               "source" : "leolabs",
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "value" : 7.40943925948867,
+               "type" : "ionospheric",
+               "source" : "iri16"
+            }
+         ],
+         "corrected" : {
+            "range" : 409557.178653701,
+            "doppler" : -8.52750100168757,
+            "rangeError" : 18.0375602437628,
+            "rcs" : 953.206506632417,
+            "elevation" : 87.2172741535882,
+            "azimuth" : 52.2205835446423,
+            "dopplerError" : 0.235419589111831
+         },
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251870,
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64799,
+         "snr" : 19961.4956954557
+      },
+      {
+         "experiment" : 20969912,
+         "measuredAt" : "2019-03-29T07:02:04.858276Z",
+         "receivedAt" : "2019-03-29T07:02:04.859643Z",
+         "transmittedAt" : "2019-03-29T07:02:04.856910Z",
+         "group" : 3,
+         "updatedAt" : "2019-03-29T07:06:32.752651Z",
+         "targetPass" : 477179003,
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "value" : 7.40466523054558,
+               "source" : "iri16",
+               "type" : "ionospheric"
+            }
+         ],
+         "corrected" : {
+            "elevation" : 87.1615124892043,
+            "rcs" : 16647.854166212,
+            "azimuth" : 58.5391129986456,
+            "dopplerError" : 0.235419589111831,
+            "range" : 409570.986029906,
+            "doppler" : 34.608665352581,
+            "rangeError" : 18.0375602437628
+         },
+         "values" : {
+            "azimuth" : 63.2710859520472,
+            "elevation" : 87.1327616027622,
+            "rcs" : 588.066081806545,
+            "dopplerError" : 0.00216321962876283,
+            "range" : 409579.01121503,
+            "doppler" : 34.3182362429913,
+            "rangeError" : 0.041217467633736
+         },
+         "beam" : 64808,
+         "catalogNumber" : "L72",
+         "integrationTime" : 0.043304,
+         "instrument" : "msr",
+         "id" : 236251882,
+         "noradCatalogNumber" : 25544,
+         "snr" : 13225704.1429054
+      },
+      {
+         "values" : {
+            "azimuth" : 64.438741536733,
+            "rcs" : 16.2050421288784,
+            "elevation" : 86.6389199715474,
+            "dopplerError" : 0.0130315197355811,
+            "range" : 409582.061055948,
+            "doppler" : 46.5848095826369,
+            "rangeError" : 0.248299449477026
+         },
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "source" : "iri16",
+               "type" : "ionospheric",
+               "value" : 7.40772006958538
+            }
+         ],
+         "corrected" : {
+            "rangeError" : 18.0375602437628,
+            "doppler" : 46.8752386922266,
+            "range" : 409574.032815986,
+            "dopplerError" : 0.235419589111831,
+            "elevation" : 87.0945902957165,
+            "rcs" : 1996.41713523502,
+            "azimuth" : 63.2831233395155
+         },
+         "updatedAt" : "2019-03-29T07:06:32.752133Z",
+         "targetPass" : 477179003,
+         "group" : 2,
+         "transmittedAt" : "2019-03-29T07:02:04.955674Z",
+         "measuredAt" : "2019-03-29T07:02:04.957040Z",
+         "receivedAt" : "2019-03-29T07:02:04.958406Z",
+         "experiment" : 20969912,
+         "snr" : 364443.241887636,
+         "noradCatalogNumber" : 25544,
+         "id" : 236251877,
+         "instrument" : "msr",
+         "integrationTime" : 0.043304,
+         "beam" : 64802,
+         "catalogNumber" : "L72"
+      },
+      {
+         "values" : {
+            "range" : 409595.222469474,
+            "doppler" : 83.4136823535143,
+            "rangeError" : 0.103937990680804,
+            "azimuth" : 64.438741536733,
+            "rcs" : 92.4929998435364,
+            "elevation" : 86.6389199715474,
+            "dopplerError" : 0.00545498582331278
+         },
+         "corrected" : {
+            "doppler" : 83.704111463104,
+            "rangeError" : 18.0375602437628,
+            "range" : 409587.194229511,
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 68.9008309884459,
+            "elevation" : 86.9837568160547,
+            "rcs" : 6072.5106590447
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663,
+               "source" : "leolabs",
+               "type" : "range_bias"
+            },
+            {
+               "value" : 7.40772006958538,
+               "source" : "iri16",
+               "type" : "ionospheric"
+            }
+         ],
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.752547Z",
+         "experiment" : 20969912,
+         "measuredAt" : "2019-03-29T07:02:05.258276Z",
+         "receivedAt" : "2019-03-29T07:02:05.259643Z",
+         "transmittedAt" : "2019-03-29T07:02:05.256910Z",
+         "group" : 2,
+         "snr" : 2079853.67007784,
+         "instrument" : "msr",
+         "id" : 236251881,
+         "noradCatalogNumber" : 25544,
+         "catalogNumber" : "L72",
+         "beam" : 64802,
+         "integrationTime" : 0.043304
+      },
+      {
+         "values" : {
+            "rcs" : 448.829943131587,
+            "elevation" : 87.1327616027622,
+            "azimuth" : 63.2710859520472,
+            "dopplerError" : 0.00247636147698565,
+            "range" : 409598.472415589,
+            "rangeError" : 0.04718399725573,
+            "doppler" : 89.6033589687933
+         },
+         "corrections" : [
+            {
+               "type" : "doppler_bias",
+               "source" : "leolabs",
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40466523054558
+            }
+         ],
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "rcs" : 14721.4408427792,
+            "elevation" : 87.0203393092493,
+            "azimuth" : 67.2423995862643,
+            "rangeError" : 18.0375602437628,
+            "doppler" : 89.893788078383,
+            "range" : 409590.447230466
+         },
+         "updatedAt" : "2019-03-29T07:06:32.753065Z",
+         "targetPass" : 477179003,
+         "experiment" : 20969912,
+         "group" : 3,
+         "transmittedAt" : "2019-03-29T07:02:05.306292Z",
+         "receivedAt" : "2019-03-29T07:02:05.309025Z",
+         "measuredAt" : "2019-03-29T07:02:05.307658Z",
+         "snr" : 10092341.8969085,
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251886,
+         "integrationTime" : 0.043304,
+         "beam" : 64808,
+         "catalogNumber" : "L72"
+      },
+      {
+         "values" : {
+            "rangeError" : 0.652227086430008,
+            "doppler" : 95.8128070174311,
+            "range" : 409603.081094416,
+            "dopplerError" : 0.034230885999929,
+            "rcs" : 2.34905490185988,
+            "elevation" : 86.3914590260621,
+            "azimuth" : 64.8868154578447
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "type" : "range_bias",
+               "source" : "leolabs",
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40943925948867
+            }
+         ],
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "rcs" : 736.181657455902,
+            "elevation" : 86.9864684011552,
+            "azimuth" : 68.7831741498033,
+            "doppler" : 96.1032361270208,
+            "rangeError" : 18.0375602437628,
+            "range" : 409595.051135263
+         },
+         "updatedAt" : "2019-03-29T07:06:32.751489Z",
+         "targetPass" : 477179003,
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:05.355674Z",
+         "measuredAt" : "2019-03-29T07:02:05.357040Z",
+         "receivedAt" : "2019-03-29T07:02:05.358407Z",
+         "experiment" : 20969912,
+         "snr" : 52818.2190156761,
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251871,
+         "integrationTime" : 0.043304,
+         "beam" : 64799,
+         "catalogNumber" : "L72"
+      },
+      {
+         "snr" : 2348023.84311334,
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251876,
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64802,
+         "values" : {
+            "dopplerError" : 0.00513403429454673,
+            "elevation" : 86.6389199715474,
+            "rcs" : 104.463295832084,
+            "azimuth" : 64.438741536733,
+            "doppler" : 132.533207645679,
+            "rangeError" : 0.0978226572800627,
+            "range" : 409638.876701443
+         },
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 75.5096605576477,
+            "elevation" : 86.801056085946,
+            "rcs" : 4287.07187130554,
+            "rangeError" : 18.0375602437628,
+            "doppler" : 132.823636755268,
+            "range" : 409630.84846148
+         },
+         "corrections" : [
+            {
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695,
+               "source" : "leolabs",
+               "type" : "doppler_bias"
+            },
+            {
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937,
+               "type" : "range_bias",
+               "source" : "leolabs"
+            },
+            {
+               "source" : "iri16",
+               "type" : "ionospheric",
+               "value" : 7.40772006958538
+            }
+         ],
+         "updatedAt" : "2019-03-29T07:06:32.752024Z",
+         "targetPass" : 477179003,
+         "experiment" : 20969912,
+         "transmittedAt" : "2019-03-29T07:02:05.646910Z",
+         "group" : 2,
+         "measuredAt" : "2019-03-29T07:02:05.648277Z",
+         "receivedAt" : "2019-03-29T07:02:05.649643Z"
+      },
+      {
+         "snr" : 1570183.33012126,
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251884,
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64808,
+         "values" : {
+            "range" : 409655.226992125,
+            "doppler" : 138.648644907203,
+            "rangeError" : 0.119623230351103,
+            "azimuth" : 63.2710859520472,
+            "elevation" : 87.1327616027622,
+            "rcs" : 69.8684195803096,
+            "dopplerError" : 0.00627819550320266
+         },
+         "corrections" : [
+            {
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695,
+               "source" : "leolabs",
+               "type" : "doppler_bias"
+            },
+            {
+               "type" : "range_bias",
+               "source" : "leolabs",
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40466523054558
+            }
+         ],
+         "corrected" : {
+            "doppler" : 138.939074016792,
+            "rangeError" : 18.0375602437628,
+            "range" : 409647.201807002,
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 74.0319764514722,
+            "elevation" : 86.8474808817346,
+            "rcs" : 6294.32180780829
+         },
+         "updatedAt" : "2019-03-29T07:06:32.752858Z",
+         "targetPass" : 477179003,
+         "group" : 3,
+         "transmittedAt" : "2019-03-29T07:02:05.696292Z",
+         "measuredAt" : "2019-03-29T07:02:05.697659Z",
+         "receivedAt" : "2019-03-29T07:02:05.699025Z",
+         "experiment" : 20969912
+      },
+      {
+         "corrections" : [
+            {
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695,
+               "source" : "leolabs",
+               "type" : "doppler_bias"
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "source" : "iri16",
+               "type" : "ionospheric",
+               "value" : 7.40943925948867
+            }
+         ],
+         "corrected" : {
+            "rcs" : 2407.76153908859,
+            "elevation" : 86.8044575201527,
+            "azimuth" : 75.405056210509,
+            "dopplerError" : 0.235419589111831,
+            "range" : 409652.023286398,
+            "doppler" : 145.131582877327,
+            "rangeError" : 18.0375602437628
+         },
+         "values" : {
+            "dopplerError" : 0.0121002643548669,
+            "elevation" : 86.3914590260621,
+            "rcs" : 18.8096770809187,
+            "azimuth" : 64.8868154578447,
+            "doppler" : 144.841153767737,
+            "rangeError" : 0.230555532954189,
+            "range" : 409660.053245551
+         },
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:05.745674Z",
+         "receivedAt" : "2019-03-29T07:02:05.748407Z",
+         "measuredAt" : "2019-03-29T07:02:05.747041Z",
+         "experiment" : 20969912,
+         "updatedAt" : "2019-03-29T07:06:32.751799Z",
+         "targetPass" : 477179003,
+         "snr" : 422698.120195633,
+         "integrationTime" : 0.043304,
+         "beam" : 64799,
+         "catalogNumber" : "L72",
+         "noradCatalogNumber" : 25544,
+         "id" : 236251874,
+         "instrument" : "msr"
+      },
+      {
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937,
+               "type" : "range_bias",
+               "source" : "leolabs"
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40943925948867
+            }
+         ],
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 79.9831407658718,
+            "elevation" : 86.6377189421343,
+            "rcs" : 797.995481346039,
+            "doppler" : 182.244443968745,
+            "rangeError" : 18.0375602437628,
+            "range" : 409695.387050853
+         },
+         "values" : {
+            "rcs" : 10.3306359486899,
+            "elevation" : 86.3914590260621,
+            "azimuth" : 64.8868154578447,
+            "dopplerError" : 0.0163310435757957,
+            "range" : 409703.417010005,
+            "doppler" : 181.954014859156,
+            "rangeError" : 0.311167784842752
+         },
+         "experiment" : 20969912,
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:06.046910Z",
+         "measuredAt" : "2019-03-29T07:02:06.048277Z",
+         "receivedAt" : "2019-03-29T07:02:06.049643Z",
+         "updatedAt" : "2019-03-29T07:06:32.751695Z",
+         "targetPass" : 477179003,
+         "snr" : 232055.655993196,
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64799,
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251873
+      },
+      {
+         "noradCatalogNumber" : 25544,
+         "instrument" : "msr",
+         "id" : 236251878,
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64802,
+         "snr" : 374935.740308882,
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.752236Z",
+         "experiment" : 20969912,
+         "group" : 2,
+         "transmittedAt" : "2019-03-29T07:02:06.096292Z",
+         "measuredAt" : "2019-03-29T07:02:06.097659Z",
+         "receivedAt" : "2019-03-29T07:02:06.099025Z",
+         "values" : {
+            "elevation" : 86.6389199715474,
+            "rcs" : 16.6924691776504,
+            "azimuth" : 64.438741536733,
+            "dopplerError" : 0.0128478836853667,
+            "range" : 409710.219480842,
+            "doppler" : 188.119647100723,
+            "rangeError" : 0.244800492248892
+         },
+         "corrected" : {
+            "azimuth" : 82.1552092238275,
+            "rcs" : 747.832982472552,
+            "elevation" : 86.5444117278828,
+            "dopplerError" : 0.235419589111831,
+            "range" : 409702.19124088,
+            "rangeError" : 18.0375602437628,
+            "doppler" : 188.410076210312
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40772006958538
+            }
+         ]
+      },
+      {
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "elevation" : 86.3936694529006,
+            "rcs" : 2114.11788901735,
+            "azimuth" : 85.2356586904491,
+            "rangeError" : 18.0375602437628,
+            "doppler" : 231.23626160614,
+            "range" : 409777.240412678
+         },
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937,
+               "type" : "range_bias",
+               "source" : "leolabs"
+            },
+            {
+               "value" : 7.40943925948867,
+               "source" : "iri16",
+               "type" : "ionospheric"
+            }
+         ],
+         "values" : {
+            "azimuth" : 64.8868154578447,
+            "elevation" : 86.3914590260621,
+            "rcs" : 33.6201796666289,
+            "dopplerError" : 0.00905630346255239,
+            "range" : 409785.270371831,
+            "doppler" : 230.94583249655,
+            "rangeError" : 0.172556632662642
+         },
+         "measuredAt" : "2019-03-29T07:02:06.438277Z",
+         "receivedAt" : "2019-03-29T07:02:06.439644Z",
+         "transmittedAt" : "2019-03-29T07:02:06.436910Z",
+         "group" : 1,
+         "experiment" : 20969912,
+         "updatedAt" : "2019-03-29T07:06:32.751902Z",
+         "targetPass" : 477179003,
+         "snr" : 754602.257563127,
+         "catalogNumber" : "L72",
+         "beam" : 64799,
+         "integrationTime" : 0.043304,
+         "id" : 236251875,
+         "instrument" : "msr",
+         "noradCatalogNumber" : 25544
+      },
+      {
+         "snr" : 903564.655709105,
+         "beam" : 64802,
+         "catalogNumber" : "L72",
+         "integrationTime" : 0.043304,
+         "instrument" : "msr",
+         "id" : 236251880,
+         "noradCatalogNumber" : 25544,
+         "corrected" : {
+            "rcs" : 3281.35215365501,
+            "elevation" : 86.2893041623828,
+            "azimuth" : 87.120845542886,
+            "dopplerError" : 0.235419589111831,
+            "range" : 409796.077284752,
+            "doppler" : 237.381304823767,
+            "rangeError" : 18.0375602437628
+         },
+         "corrections" : [
+            {
+               "type" : "doppler_bias",
+               "source" : "leolabs",
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008
+            },
+            {
+               "source" : "leolabs",
+               "type" : "range_bias",
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40772006958538
+            }
+         ],
+         "values" : {
+            "range" : 409804.105524715,
+            "doppler" : 237.090875714177,
+            "rangeError" : 0.157692518750023,
+            "azimuth" : 64.438741536733,
+            "rcs" : 40.2643793603356,
+            "elevation" : 86.6389199715474,
+            "dopplerError" : 0.00827618899104547
+         },
+         "experiment" : 20969912,
+         "measuredAt" : "2019-03-29T07:02:06.487659Z",
+         "receivedAt" : "2019-03-29T07:02:06.489026Z",
+         "group" : 2,
+         "transmittedAt" : "2019-03-29T07:02:06.486292Z",
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.752443Z"
+      },
+      {
+         "corrected" : {
+            "azimuth" : 89.8966617423359,
+            "elevation" : 86.116240829193,
+            "rcs" : 6972.26461877578,
+            "dopplerError" : 0.235419589111831,
+            "range" : 409879.813881739,
+            "rangeError" : 18.0375602437628,
+            "doppler" : 280.285394507255
+         },
+         "corrections" : [
+            {
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695,
+               "source" : "leolabs",
+               "type" : "doppler_bias"
+            },
+            {
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937,
+               "type" : "range_bias",
+               "source" : "leolabs"
+            },
+            {
+               "source" : "iri16",
+               "type" : "ionospheric",
+               "value" : 7.40943925948867
+            }
+         ],
+         "values" : {
+            "azimuth" : 64.8868154578447,
+            "elevation" : 86.3914590260621,
+            "rcs" : 77.3478292397576,
+            "dopplerError" : 0.00597371234895868,
+            "range" : 409887.843840892,
+            "doppler" : 279.994965397666,
+            "rangeError" : 0.113821681406095
+         },
+         "experiment" : 20969912,
+         "receivedAt" : "2019-03-29T07:02:06.839644Z",
+         "measuredAt" : "2019-03-29T07:02:06.838277Z",
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:06.836910Z",
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.751070Z",
+         "snr" : 1734328.73955441,
+         "beam" : 64799,
+         "catalogNumber" : "L72",
+         "integrationTime" : 0.043304,
+         "instrument" : "msr",
+         "id" : 236251867,
+         "noradCatalogNumber" : 25544
+      },
+      {
+         "experiment" : 20969912,
+         "measuredAt" : "2019-03-29T07:02:06.887659Z",
+         "receivedAt" : "2019-03-29T07:02:06.889026Z",
+         "group" : 2,
+         "transmittedAt" : "2019-03-29T07:02:06.886292Z",
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.752340Z",
+         "corrected" : {
+            "rangeError" : 18.0375602437628,
+            "doppler" : 286.409719129338,
+            "range" : 409889.085121509,
+            "dopplerError" : 0.235419589111831,
+            "elevation" : 86.0027913870791,
+            "rcs" : 3566.14656565735,
+            "azimuth" : 91.5210719722617
+         },
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663,
+               "source" : "leolabs",
+               "type" : "range_bias"
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40772006958538
+            }
+         ],
+         "values" : {
+            "azimuth" : 64.438741536733,
+            "elevation" : 86.6389199715474,
+            "rcs" : 17.7510416379584,
+            "dopplerError" : 0.0124702767712298,
+            "range" : 409897.113361472,
+            "rangeError" : 0.237605660732588,
+            "doppler" : 286.119290019748
+         },
+         "catalogNumber" : "L72",
+         "beam" : 64802,
+         "integrationTime" : 0.043304,
+         "instrument" : "msr",
+         "id" : 236251879,
+         "noradCatalogNumber" : 25544,
+         "snr" : 397986.048778786
+      },
+      {
+         "noradCatalogNumber" : 25544,
+         "id" : 236251872,
+         "instrument" : "msr",
+         "integrationTime" : 0.043304,
+         "catalogNumber" : "L72",
+         "beam" : 64799,
+         "snr" : 97490.0927275032,
+         "updatedAt" : "2019-03-29T07:06:32.751592Z",
+         "targetPass" : 477179003,
+         "transmittedAt" : "2019-03-29T07:02:07.226910Z",
+         "group" : 1,
+         "receivedAt" : "2019-03-29T07:02:07.229645Z",
+         "measuredAt" : "2019-03-29T07:02:07.228278Z",
+         "experiment" : 20969912,
+         "values" : {
+            "dopplerError" : 0.0251958941375321,
+            "azimuth" : 64.8868154578447,
+            "rcs" : 4.35283431606889,
+            "elevation" : 86.3914590260621,
+            "doppler" : 329.166264913366,
+            "rangeError" : 0.480076519881944,
+            "range" : 410004.642796478
+         },
+         "corrected" : {
+            "dopplerError" : 0.235419589111831,
+            "azimuth" : 93.8190617977558,
+            "elevation" : 85.8245780912551,
+            "rcs" : 872.550835287655,
+            "doppler" : 329.456694022956,
+            "rangeError" : 18.0375602437628,
+            "range" : 409996.612837326
+         },
+         "corrections" : [
+            {
+               "value" : -0.290429109589695,
+               "error" : 0.00939350540452008,
+               "type" : "doppler_bias",
+               "source" : "leolabs"
+            },
+            {
+               "value" : 0.620519892894663,
+               "error" : 0.712974603136937,
+               "type" : "range_bias",
+               "source" : "leolabs"
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40943925948867
+            }
+         ]
+      },
+      {
+         "targetPass" : 477179003,
+         "updatedAt" : "2019-03-29T07:06:32.751282Z",
+         "experiment" : 20969912,
+         "group" : 1,
+         "transmittedAt" : "2019-03-29T07:02:07.626910Z",
+         "receivedAt" : "2019-03-29T07:02:07.629647Z",
+         "measuredAt" : "2019-03-29T07:02:07.628278Z",
+         "values" : {
+            "rangeError" : 1.15312248924379,
+            "doppler" : 378.347173686594,
+            "range" : 410150.978947947,
+            "dopplerError" : 0.0605194192245411,
+            "elevation" : 86.3914590260621,
+            "rcs" : 0.75554805999818,
+            "azimuth" : 64.8868154578447
+         },
+         "corrections" : [
+            {
+               "source" : "leolabs",
+               "type" : "doppler_bias",
+               "error" : 0.00939350540452008,
+               "value" : -0.290429109589695
+            },
+            {
+               "error" : 0.712974603136937,
+               "value" : 0.620519892894663,
+               "source" : "leolabs",
+               "type" : "range_bias"
+            },
+            {
+               "type" : "ionospheric",
+               "source" : "iri16",
+               "value" : 7.40943925948867
+            }
+         ],
+         "corrected" : {
+            "range" : 410142.948988795,
+            "doppler" : 378.637602796184,
+            "rangeError" : 18.0375602437628,
+            "rcs" : 362.245677259888,
+            "elevation" : 85.5081217666301,
+            "azimuth" : 97.2953412173471,
+            "dopplerError" : 0.235419589111831
+         },
+         "noradCatalogNumber" : 25544,
+         "id" : 236251869,
+         "instrument" : "msr",
+         "integrationTime" : 0.043304,
+         "beam" : 64799,
+         "catalogNumber" : "L72",
+         "snr" : 16897.8141828309
+      }
+   ]
+}
