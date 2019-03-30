@@ -19,4 +19,17 @@ On Sunday, if you submit your software hack for judging, you will have a 7-minut
 
 ## Proposed Solution
 
+Webpage showing possible number of collisions given a lat-long if shooting an object up into space straight. It could later be improved using a trajectory vector & a forecast trajectory for the debris.
 
+
+### Steps (and challenges)
+
+1. Explore API. ✅
+2. Mock data. ✅
+3. Convert from ECI to LLA (and viceversa). [MathWorks example](https://www.mathworks.com/help/aerotbx/ug/lla2eci.html) 🔲
+4. Build front-end. 🔲
+    1. Accept current location manually or automatically from device. 🔲
+    2. Show 3D embeddable map from LeoLabs ([doc](https://platform.leolabs.space/documentation/embeddable_map)). 🔲
+    3. Show disabled vector direction (or get it from device gyroscope). 🔲
+    4. Accept input for size of launched object. 🔲
+    5. Show message: "Your rocket might going to be hit by X debris! Buckle up! Hope your shield is powerful enough!" 🔲
