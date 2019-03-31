@@ -1,0 +1,5 @@
+export default {
+  SEARCH_TEXT_DEFAULT: "Search here",
+  LATITUDE_DELTA_DEFAULT: 0.0922 / 2,
+  LONGITUDE_DELTA_DEFAULT: 0.0421 / 2
+};
