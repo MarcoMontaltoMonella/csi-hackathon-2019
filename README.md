@@ -1,6 +1,6 @@
-# Columbia Space Initiative Hackathon 2019
+# Columbia Space Initiative Hackathon (2019)
 
-![CSI-logo-small](imgs/csi-logo-small.png)
+![slides-cover](docs/slides-cover.png)
 
 ## Software Track Challenge
 
@@ -12,15 +12,17 @@ The vast majority of satellites, once placed in orbit, do not contain propulsion
 The primary objective of the software track is to seek out creative solutions to the LEO debris problem through novel software applications, utilities, or simulations. 
 Software solutions should consider looking for inspiration at the technologies of NewSpace companies, such as LeoLabs, and Analytical Graphics Incorporated. The US government also provides a Space Situational Awareness (SSA) service through the US Air Force. The judges are looking for commercially viable, creative software ideas that will clear LEO of debris and make it a less risky place to operate.
 
---- 
+---
 
 On Sunday, if you submit your software hack for judging, you will have a 7-minute window to “demo” your solution to the judging panel, followed by a 5-minute Q&A with the panel. How you use this time and what materials you use in the presentation is up to you. We recommend a brief PowerPoint, accompanied a demo or handout of no more than 2 pages in length.
 
-
-## Proposed Solution
+## Proposed Idea
 
 Webpage showing possible number of collisions given a lat-long if shooting an object up into space straight. It could later be improved using a trajectory vector & a forecast trajectory for the debris.
 
+### Presentation Slides
+
+Click [**here**](docs/DebrisApp.pdf) to see the slide presentation deck.
 
 ### Steps (and challenges)
 
@@ -33,3 +35,13 @@ Webpage showing possible number of collisions given a lat-long if shooting an ob
     3. Show disabled vector direction (or get it from device gyroscope). 🔲
     4. Accept input for size of launched object. 🔲
     5. Show message: "Your rocket might going to be hit by X debris! Buckle up! Hope your shield is powerful enough!" 🔲
+
+## References
+
+- Columbia Space Initiative Hackathon website: [https://columbiaspace.org/spaceathon/](https://columbiaspace.org/spaceathon/)
+- LeoLabs Platform Official website: [https://platform.leolabs.space](https://platform.leolabs.space)
+- Expo: [https://expo.io/](https://expo.io/)
+
+Thanks to the [@columbiaspace](https://github.com/columbiaspace) team for the nice experience!
+
+![CSI-logo-small](imgs/csi-logo-small.png)
